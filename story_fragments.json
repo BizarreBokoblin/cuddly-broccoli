@@ -1,0 +1,43 @@
+{
+    "title": "My first story",
+    "parts": [
+        {
+            "id": 1,
+            "key": "the_first_part",
+            "text": "The hairy bokoblin stood amongst the tall grass, it's eyes washing over you with malice.",
+            "question": "Do you:",
+            "options": [
+                {"id": "a", "text": "Say hi!", "part_id": 2},
+                {"id": "b", "text": "Throw a rock at it...", "part_id": 3},
+                {"id": "c", "text": "Take a nap", "part_id": 4}
+            ]
+        },
+        {
+            "id": 2,
+            "key": "the_friendly_part",
+            "text": "The bokoblin waves at you! Then it murders you with it's bokobat :(",
+            "question": "Do you:",
+            "options": [
+                {"id": "a", "text": "Try again!", "part_id": 1}
+            ]
+        },
+        {
+            "id": 3,
+            "key": "the_aggressive_part",
+            "text": "You knock bokoblin down. You race over to check for treasure and it murders you with it's bokobat :(",
+            "question": "Do you:",
+            "options": [
+                {"id": "a", "text": "Try again!", "part_id": 1}
+            ]
+        },
+        {
+            "id": 4,
+            "key": "the_lazy_part",
+            "text": "You wake up, all cozy and warm finding the bokoblin has cuddled up beside you. Then it murders you with it's bokobat :(",
+            "question": "Do you:",
+            "options": [
+                {"id": "a", "text": "Try again!", "part_id": 1}
+            ]
+        }
+    ]
+}
